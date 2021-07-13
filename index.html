@@ -1,57 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body,
+    h1 {
+        font-family: "Raleway", sans-serif
+    }
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-</head>
+    body,
+    html {
+        height: 100%
+    }
+
+    .bgimg {
+        background-image: 'mine.png';
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+</style>
 
 <body>
-    <div class="container1">
-        <h1 class="upperPadding">CHILDCARE FOUNDATION</h1>
-        <img class="image" src="image1.jpg" alt="" />
-        <br />
-        <h2>- COVID-19 ORPHAN RELIEF -</h2>
-        <div class="container2">
-            <p>
-                More than 1700 children have lost their parents during COVID-19
-                pandemic. They need care and protection. The child Care Foundation is
-                there to help them in this situation by providing them food,
-                medication and education.
-                <br />
-                <br />
-                Together we can provide them a better life. Your donation today can
-                help provide life saving relief. For every 100 rupees you donate, one
-                child will not sleep hungry.
-            </p>
-            <br /><br />
 
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+        <div class="w3-display-topleft w3-padding-large w3-xlarge">
+            Pay To Abbas
+        </div>
+        <div class="w3-display-middle">
+            <h1 class="w3-jumbo w3-animate-top">Pay Now</h1>
+            <hr class="w3-border-grey" style="margin:auto;width:40%">
             <form>
                 <script src="https://checkout.razorpay.com/v1/payment-button.js"
                     data-payment_button_id="pl_HYUiZ9OE1g0Ivk" async> </script>
             </form>
         </div>
-    </div>
 
-    <div class="container3">
-        <h3>It's not the physical pain that endangers orphans the most</h3>
-        <p>
-            It is the mental pain caused by stress from years and years of being
-            neglected, pushed aside, disregarded, unloved, and made to feel
-            undeserving, and in almost all cases, made to feel like a possession
-            rather than an equal human being.
-        </p>
-    </div>
-
-    <div class="footer">
-        <h4>Child Care Foundation</h4>
-
-        <p class="p-middle">
-            © Copyright 2023 All rights reserved
-        </p>
     </div>
 
 </body>
